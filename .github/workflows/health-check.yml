@@ -1,9 +1,7 @@
 name: Scheduled Health Check
 
 # Controls when the action will run.
-on:
-  schedule:
-    - cron: "*/15 * * * *"
+on: push
 
 jobs:
   health_check_job:
